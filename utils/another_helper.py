@@ -1,5 +1,6 @@
 from ultralytics import YOLO
 
+
 def get_only_text_bboxes(model: YOLO, img_path):
     results = model(img_path)
 
